@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Mono:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+
+/*-------------------Dispositivos------------------*/
+
+@media (max-width:1200px) {
+
+    .container-descricao {
+        height: 260px;
+    }
+
+    #habilidades {
+        display: flex;
+        justify-content: center;
+    }
+
+    .skills-descricao {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        gap:50px;
+        padding-bottom: 70px;
+        align-items: center;
+    }
+
+    .skills-descricao p {
+        text-align: center;
+    }
+
+    .desc {
+        font-size: 150%;
+    }
+}
+
+@media (max-width:950px) {
+    .container-skills {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 37px;
+        max-width: 300px;
+    }
+
+    .container-descricao {
+        max-width: 300px;
+    }
+
+    .desc {
+        font-size: 100%;
+    }
+}

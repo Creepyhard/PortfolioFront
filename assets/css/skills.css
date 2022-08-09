@@ -1,0 +1,117 @@
+/*-----------------skills--------------------*/
+
+#habilidades {
+    background-image: linear-gradient(to bottom, #48c6ef 0%, #6f86d6 100%);
+    font-family: 'Roboto Mono', monospace;
+}
+
+#habilidades::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #48c6ef 0%, transparent 25%);
+    z-index: 1000;
+}
+
+.habilidades-c {
+    padding-top: 80px;
+}
+
+.habilidades-c h2 { 
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.skills-descricao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-left: 12%;
+    gap:50px;
+    padding-bottom: 70px;
+}
+
+.container-skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 37px;
+    max-width: 40%;
+
+}
+
+.skill-box {
+    height: 106px;
+    width: 106px;
+    background-image: linear-gradient(120deg, #a1c4fdde 10%, #c2e9fbde 100%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: ease 0.3s;
+}
+
+.skill-box:hover {
+    background-color: rgb(95, 41, 139);
+    transform: scale(1.05);
+}
+
+.container-descricao {
+    color: white;
+    font-size: 20px;
+    max-width: 40%;
+}
+
+
+/*-------------------Icones Skills------------------*/
+
+.skill-box .icones-habilidades-html {
+    transition: ease-in-out 0.3s;
+    width: 60%;
+}
+
+
+.skill-box .icones-habilidades-css {
+    transition: ease-in-out 0.3s;
+    width: 80%;
+}
+
+.skill-box .icones-habilidades-js {
+    transition: ease-in-out 0.3s;
+    width: 65%;
+}
+
+.skill-box .icones-habilidades-java {
+    transition: ease-in-out 0.3s;
+    width: 75%;
+}
+
+.skill-box .icones-habilidades-angular {
+    transition: ease-in-out 0.3s;
+    width: 60%;
+}
+
+
+.skill-box .icones-habilidades-git {
+    transition: ease-in-out 0.3s;
+    width: 60%;
+}
+
+.skill-box .icones-habilidades-mysql {
+    transition: ease-in-out 0.3s;
+    width: 80%;
+}
+
+.skill-box .icones-habilidades-bootstrap {
+    transition: ease-in-out 0.3s;
+    width: 90%;
+}
+
+.skill-box:hover .icones-habilidades {
+    opacity: 100%;
+}

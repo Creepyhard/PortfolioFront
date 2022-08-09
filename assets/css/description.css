@@ -1,0 +1,19 @@
+/*-------------------Descrição------------------*/
+
+#sobre {
+    background-image: linear-gradient(rgb(169, 201, 255) 0%, rgb(255, 187, 236) 100%);
+    font-family: 'Roboto Mono', monospace;
+}
+
+.centralizador-desc {
+    display: flex;
+    align-items: center;
+}
+
+.programador {
+    width: 45%;
+}
+
+.desc {
+    font-size : 200%;
+}
