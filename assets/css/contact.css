@@ -35,7 +35,6 @@
   border-radius: 5px;
   border: 1px solid gray;
   outline: none;
-  color: red;
 }
 
 .input:is(:focus, :valid) {
@@ -51,7 +50,6 @@
   border: 1px solid gray;
   outline: none;
   resize: none;
-  color: red;
   max-height: 200px;
 }
 
