@@ -2,7 +2,7 @@
 /*-----------------Projetos--------------------*/
 
 #projetos {
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    background-image: linear-gradient(to top, #89f7fe 0%, #66a6ff 100%);
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -43,7 +43,7 @@
 .pj-box {
     height: 300px;
     width: 320px;
-    background-image: linear-gradient(120deg, #a1c4fdde 10%, #c2e9fbde 100%);
+    background-image: linear-gradient(120deg, #00cdab31 0%, #8ddad5e7 100%);
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -65,7 +65,7 @@
 }
 
 .pj-box:hover {
-    background-color: rgb(95, 41, 139);
+    background-color: #60f5eda8;
 }
 
 /*-------------------Imagem Projetos------------------*/

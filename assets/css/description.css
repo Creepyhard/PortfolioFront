@@ -1,7 +1,7 @@
 /*-------------------Descrição------------------*/
 
 #sobre {
-    background-image: linear-gradient(rgb(169, 201, 255) 0%, rgb(255, 187, 236) 100%);
+    background-image: linear-gradient(to top, #48c6ef 0%, #5a7dfc9d 100%);
     font-family: 'Roboto Mono', monospace;
 }
 
